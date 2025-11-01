@@ -1,8 +1,8 @@
 // src/context/AppStateContext.tsx
 import React, { createContext, useContext, useReducer, ReactNode } from "react";
 import { Client, Project, Payment } from "../models/models";
-import { initialClients, initialProjects, initialPayments } from "../data/seed";
-import { recordPaymentValidate } from "../utils/utils";
+import { initialClients, initialProjects, initialPayments } from "../data/Seed";
+import { recordPaymentValidate } from "../utils/Utils";
 
 // State type
 export interface AppState {
