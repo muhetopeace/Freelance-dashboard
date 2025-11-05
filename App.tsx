@@ -1,9 +1,9 @@
 // src/App.tsx
 import React, { useState } from "react";
 import { AppStateProvider, useAppState } from "./context/AppStateContext";
-import ClientCard from "./components/ClientCard";
-import ProjectList from "./components/ProjectList";
-import DashboardStats from "./components/DashboardStats";
+import ClientCard from "../../components/ClientCard";
+import ProjectList from "../../ProjectList";
+import DashboardStats from "../../components/DashboardStats";
 import { searchByName, filterProjects } from "./utils/Utils";
 import type { ProjectStatus, PaymentState } from "./type/Types";
 
